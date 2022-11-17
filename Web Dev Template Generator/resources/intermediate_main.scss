@@ -1,0 +1,43 @@
+@import "./global";
+
+body {
+    height: 100vh;
+    background-image: url("../assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    div.container {
+        width: 1200px;
+        height: 750px;
+        background-color: rgba(0, 0, 0, 0.75);
+        border-radius: 180px;
+        box-shadow: 0 0 18px 9px black;
+        h1 {
+            font-size: 2.4rem;
+        }
+        p.info {
+            margin-top: 1rem;
+            font-size: 1.8rem;
+        }
+        a {
+            text-decoration: none;
+            transition: color 0.18s ease-in-out;
+            &:hover {
+                transition: color 0.18s ease-in-out;
+            }
+        }
+        a:nth-of-type(1) {
+            color: lightseagreen;
+            &:hover{
+                color: rgb(0, 255, 242);
+            }
+        }
+        a:nth-of-type(2) {
+            color: rosybrown;
+            &:hover{
+                color: rgb(255, 115, 115);
+            }
+        }
+    }
+}

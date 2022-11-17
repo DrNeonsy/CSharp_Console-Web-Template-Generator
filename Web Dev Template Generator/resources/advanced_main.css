@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  outline: none;
+  color: blanchedalmond;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-c-c {
+  justify-content: center;
+}
+
+.align-i-c {
+  align-items: center;
+}
+
+.flex-dir {
+  flex-direction: column;
+}
+
+body {
+  height: 100vh;
+  background-image: url("../assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body div.container {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 18px 9px black;
+}
+body div.container h1 {
+  font-size: 4.2rem;
+}
+body div.container p.info {
+  margin-top: 1rem;
+  font-size: 2.4rem;
+}
+body div.container a {
+  text-decoration: none;
+}
+body div.container a.js {
+  color: rgb(255, 183, 0);
+  transition: color 0.18s ease-in-out;
+}
+body div.container a.js:hover {
+  color: rgb(255, 234, 0);
+  transition: color 0.18s ease-in-out;
+}
+body div.container a.php {
+  color: rgb(0, 102, 255);
+  transition: color 0.18s ease-in-out;
+}
+body div.container a.php:hover {
+  color: rgb(0, 170, 255);
+  transition: color 0.18s ease-in-out;
+}
+body div.container button {
+  margin-top: 3rem;
+  font-size: 9rem;
+  border-radius: 180px;
+  border: none;
+  padding: 1rem;
+  color: rgb(255, 140, 8);
+  background: rgb(0, 28, 50);
+  background: linear-gradient(0deg, rgb(0, 28, 50) 0%, rgb(0, 148, 179) 100%);
+  box-shadow: 2px 5px rgb(1, 14, 24);
+  text-shadow: 2px 3px 1.2px rgb(95, 37, 0);
+  cursor: pointer;
+}
+body div.container button:active {
+  transform: translateY(18px);
+}
